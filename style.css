@@ -1,0 +1,106 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  background-color: rgba(179, 197, 199, 0.308); 
+
+  color: black;
+  font-size: 15px;
+
+}
+
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+  line-height: normal;
+  
+}
+.container {
+  width: 1000px;   /* This sets the width */
+   margin: 0 auto; /* This automatically sets left/right margins*/
+}
+
+li { 
+  color: aliceblue;
+  text-decoration: none;
+}
+
+a:hover {
+ color: rgb(99, 50, 110);
+}
+
+/* 
+li   {
+ color: rgb(99, 50, 110);   
+}  */
+
+/* .card {
+   background: white;
+  padding: 32px;
+  margin: 32px;
+  border-radius: 5px; 
+}*/
+
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #1EDD88;
+  transition: background 0.3s ease;
+}
+
+.btn-flat:hover {
+  background: #1BCB7F;
+  color: white;
+}
+
+.box-shadow {
+  box-shadow: rgba(0,0,0,0.4);
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background: white;
+  padding: 32px;
+  margin: 32px;
+  border-radius: 50px;
+  border: 2px solid lightgrey;
+}
+
+.icon {
+  font-size: 32px;
+}
+
+/* .list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+} */
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
